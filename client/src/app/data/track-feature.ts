@@ -1,5 +1,4 @@
-import * as chroma from 'chroma-js';
-
+import chroma from 'chroma-js';  
 export class TrackFeature {
 	static FeatureTypes = ['danceability', 'energy', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence'];
 

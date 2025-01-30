@@ -11,9 +11,7 @@ describe('ThermometerComponent', () => {
       declarations: [ ThermometerComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(ThermometerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

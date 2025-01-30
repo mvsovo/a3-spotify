@@ -6,10 +6,11 @@ import { TrackData } from '../../data/track-data';
 import { ResourceData } from '../../data/resource-data';
 
 @Component({
-  selector: 'app-search',
-  templateUrl: './search.component.html',
-  styleUrls: ['./search.component.css'],
-  providers: [ SpotifyService ]
+    selector: 'app-search',
+    templateUrl: './search.component.html',
+    styleUrls: ['./search.component.css'],
+    providers: [SpotifyService],
+    standalone: false
 })
 export class SearchComponent implements OnInit {
   searchString:string;
